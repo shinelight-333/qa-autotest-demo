@@ -1,0 +1,29 @@
+# Local environments and credentials
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated reports, screenshots and local browser binaries
+reports/
+artifacts/
+drivers/
+*.log
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

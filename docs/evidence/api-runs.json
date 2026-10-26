@@ -1,0 +1,268 @@
+{
+  "description": "Selected metadata from existing local pytest-html reports; no test run was performed during extraction.",
+  "timestamp_note": "Report timestamps have no timezone. Report filenames do not establish the application version or defect flags.",
+  "reports": [
+    {
+      "source_file": "api-09-15.html",
+      "source_sha256": "ab47079a20e7d965b99ca912d047efaea25420496d5062c6ce71421e1693e502",
+      "generated_at_as_written": "07-Oct-2026 at 19:41:17",
+      "results": {
+        "Failed": 2
+      },
+      "tests": [
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase"
+        }
+      ]
+    },
+    {
+      "source_file": "api.html",
+      "source_sha256": "e83fcb9dfb1debb49711ad0e6f5ae1634c6cdf8e9b01191fc282600758940c98",
+      "generated_at_as_written": "07-Oct-2026 at 19:35:58",
+      "results": {
+        "Failed": 15,
+        "Error": 2
+      },
+      "tests": [
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_01_foreign_order_is_not_readable",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_01_foreign_order_is_not_readable"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_02_foreign_order_cannot_be_cancelled",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_02_foreign_order_cannot_be_cancelled"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_03_client_price_is_rejected",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_03_client_price_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_04_inactive_product_is_rejected",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_04_inactive_product_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_05_cart_quantity_cannot_exceed_99",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_05_cart_quantity_cannot_exceed_99"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_06_invalid_profile_phone_is_rejected",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_06_invalid_profile_phone_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_07_search_trims_surrounding_spaces",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_07_search_trims_surrounding_spaces"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_08_reversed_price_range_is_rejected",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_08_reversed_price_range_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status",
+          "result": "Error",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status::setup"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_10_catalog_pages_do_not_overlap",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_10_catalog_pages_do_not_overlap"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_11_repeated_add_increases_existing_quantity",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_11_repeated_add_increases_existing_quantity"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[quote]",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[quote]"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[order]",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[order]"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_13_cancellation_releases_promo",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_13_cancellation_releases_promo"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_14_cancellation_restores_last_unit",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_14_cancellation_restores_last_unit"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase",
+          "result": "Error",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase::setup"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_16_price_sorting_is_numeric",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_16_price_sorting_is_numeric"
+        }
+      ]
+    },
+    {
+      "source_file": "fixed-api-09-15.html",
+      "source_sha256": "b6c961471054b4326c67b22f77161562586f4ef8e41c8e6a8086344c5ac22698",
+      "generated_at_as_written": "07-Oct-2026 at 19:46:42",
+      "results": {
+        "Passed": 2
+      },
+      "tests": [
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase"
+        }
+      ]
+    },
+    {
+      "source_file": "fixed-api.html",
+      "source_sha256": "4ebcf44ff4732ba18a773e835dc2dc93c343d0df37cda56e03cf68563198ae9f",
+      "generated_at_as_written": "07-Oct-2026 at 19:47:05",
+      "results": {
+        "Passed": 16,
+        "Failed": 1
+      },
+      "tests": [
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_01_foreign_order_is_not_readable",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_01_foreign_order_is_not_readable"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_02_foreign_order_cannot_be_cancelled",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_02_foreign_order_cannot_be_cancelled"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_03_client_price_is_rejected",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_03_client_price_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_04_inactive_product_is_rejected",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_04_inactive_product_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_05_cart_quantity_cannot_exceed_99",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_05_cart_quantity_cannot_exceed_99"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_06_invalid_profile_phone_is_rejected",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_06_invalid_profile_phone_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_07_search_trims_surrounding_spaces",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_07_search_trims_surrounding_spaces"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_08_reversed_price_range_is_rejected",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_08_reversed_price_range_is_rejected"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_09_orders_are_filtered_by_status"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_10_catalog_pages_do_not_overlap",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_10_catalog_pages_do_not_overlap"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_11_repeated_add_increases_existing_quantity",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_11_repeated_add_increases_existing_quantity"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[quote]",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[quote]"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[order]",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_12_expired_promo_is_rejected[order]"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_13_cancellation_releases_promo",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_13_cancellation_releases_promo"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_14_cancellation_restores_last_unit",
+          "result": "Failed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_14_cancellation_restores_last_unit"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_15_review_requires_paid_purchase"
+        },
+        {
+          "nodeid": "tests/api/test_api_defects.py::test_api_16_price_sorting_is_numeric",
+          "result": "Passed",
+          "reported_test_id": "tests/api/test_api_defects.py::test_api_16_price_sorting_is_numeric"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "source_file": "api.html",
+      "scenario": "API-01",
+      "expected_http": 404,
+      "actual_http": 200,
+      "observation": "A different account could GET the newly created order."
+    },
+    {
+      "source_file": "api.html",
+      "scenario": "API-07",
+      "expected_count": 6,
+      "actual_count": 0,
+      "observation": "Search with surrounding spaces returned 0 products instead of the 6 returned by the clean query."
+    },
+    {
+      "source_file": "api.html",
+      "scenario": "API-14",
+      "expected_stock_after_cancel": 1,
+      "actual_stock_after_cancel": 0,
+      "observation": "Cancelling the order did not restore the reserved last unit."
+    },
+    {
+      "source_file": "fixed-api.html",
+      "scenario": "API-14",
+      "required_initial_stock": 1,
+      "actual_initial_stock": 0,
+      "observation": "The retest failed its precondition; this does not establish whether cancellation was fixed."
+    }
+  ]
+}

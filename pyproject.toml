@@ -1,0 +1,25 @@
+[project]
+name = "qa-autotest-demo"
+version = "0.1.0"
+description = "Локальные API и UI проверки учебного магазина Поход"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pytest>=8.3,<10",
+    "requests>=2.32.3,<3",
+    "selenium>=4.27,<5",
+    "pytest-html>=4.1.1,<5",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers --tb=short --html=reports/report.html --self-contained-html"
+markers = [
+    "api: проверки через Requests",
+    "ui: проверки в локальном браузере через Selenium",
+    "smoke: контрольная успешная покупка",
+    "defect(id): идентификатор сценария из docs/coverage.md",
+]
